@@ -6,3 +6,18 @@ footer {
 footer .channel {
   @apply font-bold;
 }
+
+@screen lg {
+  .contact {
+    @apply flex;
+    @apply items-center;
+    @apply justify-between;
+  }
+
+  .contact > p:first-child {
+    @apply w-7/12;
+  }
+  .contact > p.channel {
+    @apply w-1/3;
+  }
+}

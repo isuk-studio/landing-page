@@ -19,7 +19,16 @@
     background-position: calc(100%) 50%;
   }
 
+  .cta .constraint {
+    @apply flex;
+    @apply justify-between;
+  }
+
   .cta .constraint > div {
     @apply w-5/12;
+  }
+
+  .cta__illustration {
+    display: block;
   }
 }
