@@ -1,6 +1,5 @@
 .commend__list {
   @apply flex;
-  @apply flex-col;
   @apply reset-list;
   margin: theme('space.4') -10px;
   border-color: theme('colors.orange.dark');
@@ -47,5 +46,19 @@
 @screen md {
   .commend__item .commend__msg {
     min-height: theme('space.9')
+  }
+}
+
+@screen lg {
+  .commend__list {
+    padding: 0 theme('space.1')
+  }
+  .commend__item .commend__msg {
+    min-height: 200px;
+  }
+  .commend__item {
+    @apply w-1/3;
+    margin: 0 theme('space.2');
+    background-position: 0px 20px, calc(100% - 20px) 15px, calc(100%) calc(100% - 20px), 20px 0, 50px 50px;
   }
 }

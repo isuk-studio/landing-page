@@ -1,21 +1,15 @@
 .slide-preview {
   @apply relative;
-  margin-top: theme('space.6');
 }
 .slide-preview ul {
   @apply reset-list;
   z-index: 1;
 }
 
-.slide-preview li {
-  margin-top: 15px;
-  flex: 1 0 100%;
-}
-
 .slide-preview img {
   @apply w-full;
   @apply block;
-  max-width: 280px;
+  max-width: 100%;
 }
 
 .slide-bg {
@@ -25,16 +19,6 @@
   box-shadow: theme('shadow.default');
 }
 
-
-@screen md {
-  .slide-preview img {
-    max-width: 540px;
-  }
-
-  .slide-preview li {
-    margin-top: 29.5px;
-  }
-} 
 /* purgecss start ignore */
 
 ul.slick-dots{

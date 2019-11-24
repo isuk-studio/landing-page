@@ -9,3 +9,9 @@
     max-width: 540px;
   }
 }
+
+@screen lg {
+  .constraint {
+    max-width: 1080px;
+  }
+}

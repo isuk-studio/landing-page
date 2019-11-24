@@ -62,7 +62,14 @@ module.exports = {
       '9': '90px',
       '10': '100px',
     },
-    extend: {}
+    extend: {
+      width: {
+        '1/3': 'calc(33.3333333% - 20px)',
+        '5/12': 'calc(41.66666667% - 20px)',
+        '1/2': 'calc(50% - 20px)',
+        '7/12': 'calc(58.33333333% - 20px)',
+      },
+    }
   },
   variants: {},
   plugins: []

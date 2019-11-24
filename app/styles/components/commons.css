@@ -13,3 +13,7 @@ p {
 section {
   padding: theme('space.5') 0;
 }
+
+.col {
+  margin: 0 theme('space.1');
+}

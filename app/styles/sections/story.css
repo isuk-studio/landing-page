@@ -1,7 +1,38 @@
-.story {
-  
-}
-
 .neurabot-story {
   margin-top: theme('space.4');
+}
+
+.slide-preview {
+  margin-top: theme('space.6');
+}
+
+.slide-preview li {
+  margin-top: 15px;
+  flex: 1 0 100%;
+}
+
+@screen md {
+  .slide-preview li {
+    margin-top: 29.5px;
+  }
+}
+
+@screen lg {
+  .story {
+    @apply flex;
+    @apply justify-between;
+  }
+
+  .slide-preview {
+    @apply w-7/12;
+    @apply mt-0;
+  }
+
+  .slide-preview li {
+    margin-top: 33.5px;
+  }
+
+  .isuk-neurabot {
+    @apply w-5/12;
+  }
 }

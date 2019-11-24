@@ -29,3 +29,19 @@
     @apply items-center;
   }
 }
+
+@screen lg {
+  .solution {
+    @apply flex;
+    @apply justify-between;
+  }
+
+  .solution > div {
+    @apply w-5/12;
+  }
+
+  .solution > ul {
+    @apply w-1/2;
+    @apply mt-0;
+  }
+}

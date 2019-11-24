@@ -42,3 +42,13 @@
     width: auto;
   }
 }
+
+@screen lg {
+  .hero {
+    background-position: right top;
+  }
+
+  .hero .introduction {
+    @apply w-1/2;
+  }
+}

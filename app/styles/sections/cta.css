@@ -13,3 +13,13 @@
   margin-top: theme('space.1');
   margin-bottom: theme('space.4');
 }
+
+@screen lg {
+  .cta {
+    background-position: calc(100%) 50%;
+  }
+
+  .cta .constraint > div {
+    @apply w-5/12;
+  }
+}
