@@ -1,0 +1,11 @@
+.constraint {
+  @apply mx-auto;
+  max-width: 280px;
+  min-width: 280px;
+}
+
+@screen md {
+  .constraint {
+    max-width: 540px;
+  }
+}

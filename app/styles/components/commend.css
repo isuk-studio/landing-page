@@ -1,0 +1,51 @@
+.commend__list {
+  @apply flex;
+  @apply flex-col;
+  @apply reset-list;
+  margin: theme('space.4') -10px;
+  border-color: theme('colors.orange.dark');
+}
+
+.commend__item {
+  @apply bg-no-repeat;
+  padding: theme('space.5');
+  background-image: url('../../images/images/img-line-horizontal.svg'),
+    url('../../images/images/img-line-vertical.svg'),
+    url('../../images/images/img-line-horizontal.svg'),
+    url('../../images/images/img-line-vertical.svg'),
+    url('../../images/images/img-quote.svg');
+  background-position: 0px 20px, calc(100% - 20px) 15px, calc(100% + 10px) calc(100% - 20px), 20px 0, 50px 50px;
+}
+
+.commend__item .commend__msg {
+  line-height: theme('lineHeight.relaxed');
+  min-height: 200px;
+  margin-top: theme('space.5');
+  margin-bottom: theme('space.4');
+  color: theme('colors.black');
+}
+
+.commend__item .commend__author {
+  @apply font-bold;
+  @apply m-0;
+  color: theme('colors.orange.dark');
+}
+
+.commend__item .commend__company {
+  @apply m-0;
+  @apply text-sm;
+  color: theme('colors.gray.medium');
+}
+
+.commend__item img {
+  @apply block;
+  margin-bottom: theme('space.1');
+  width: 48px;
+  height: 48px;
+}
+
+@screen md {
+  .commend__item .commend__msg {
+    min-height: theme('space.9')
+  }
+}

@@ -1,0 +1,8 @@
+footer {
+  background-color: theme('colors.gray.lighter');
+  padding: theme('space.5') 0;
+}
+
+footer .channel {
+  @apply font-bold;
+}

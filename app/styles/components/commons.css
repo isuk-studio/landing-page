@@ -1,0 +1,15 @@
+p {
+  margin-top: theme('space.2');
+  margin-bottom: theme('space.2');
+  color: theme('colors.gray.dark');
+}
+
+.reset-list {
+  @apply m-0;
+  @apply p-0;
+  @apply list-none;
+}
+
+section {
+  padding: theme('space.5') 0;
+}

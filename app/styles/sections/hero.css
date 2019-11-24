@@ -1,0 +1,44 @@
+.hero {
+  @apply bg-no-repeat;
+  background-image: url('../../images/images/img-grid.svg');
+  background-position: calc(100% + 590px) top;
+  padding: theme('space.10') 0;
+}
+
+.hero p {
+  margin-top: theme('space.1');
+  margin-bottom: theme('space.4');
+}
+
+.hero h2 {
+  margin-top: theme('space.6');
+}
+
+.clients {
+  @apply flex;
+  @apply justify-between;
+  @apply flex-wrap;
+  margin-top: theme('space.6');
+}
+
+.clients > a {
+  width: 50%;
+  @apply flex;
+  @apply items-center;
+  margin: theme('space.2') 0;
+}
+
+.clients > a > img{
+  @apply mx-auto;
+  @apply block;
+}
+
+@screen md {
+  .hero .action {
+    @apply flex;
+  }
+
+  .clients > a {
+    width: auto;
+  }
+}

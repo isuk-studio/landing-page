@@ -1,0 +1,15 @@
+.cta {
+  @apply bg-no-repeat;
+  background-image: url('../../images/images/img-grid.svg');
+  background-position: calc(100% + 590px) top;
+  padding: theme('space.5') 0;
+}
+
+.cta__illustration {
+  display: none;
+}
+
+.cta p {
+  margin-top: theme('space.1');
+  margin-bottom: theme('space.4');
+}

@@ -1,0 +1,7 @@
+<svg width="93" height="94" viewBox="0 0 93 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 47H92" stroke="#C0CFDE" stroke-linecap="round" stroke-dasharray="2 4"/>
+<ellipse cx="46.5" cy="47" rx="45.5" ry="46" stroke="#C0CFDE" stroke-linecap="round" stroke-dasharray="2 4"/>
+<circle cx="46.5" cy="31.5" r="29.5" fill="#FFCC00" stroke="#464E57" stroke-width="2" stroke-linecap="round"/>
+<circle cx="46.5" cy="62.5" r="29.5" stroke="#464E57" stroke-width="2" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.5795 47C27.6601 39.1754 36.4756 34 46.5 34C56.5244 34 65.3399 39.1754 70.4205 47C65.3399 54.8246 56.5244 60 46.5 60C36.4756 60 27.6601 54.8246 22.5795 47Z" fill="#FF7F2A"/>
+</svg>

@@ -1,0 +1,31 @@
+.solution ul {
+  @apply reset-list;
+  margin-top: theme('space.6');
+}
+
+.solution ul li{
+  @apply flex;
+  @apply items-center;
+  @apply flex-col;
+  padding-top: theme('space.2');
+  padding-bottom: theme('space.2');
+}
+
+.img-container {
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  min-height: 140px;
+}
+
+.solution li p {
+  @apply title-4;
+}
+
+@screen md {
+  .solution ul {
+    @apply flex;
+    @apply justify-between;
+    @apply items-center;
+  }
+}
