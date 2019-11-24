@@ -18,6 +18,11 @@ const isProd = process.env.NODE_ENV === 'production';
 const isTest = process.env.NODE_ENV === 'test';
 const isDev = !isProd && !isTest;
 
+function slick() {
+  return src('app/slick/ajax-loader.gif')
+    .pipe(dest('dist/styles'))
+};
+
 function styles() {
   return src('app/styles/*.css')
     .pipe($.if(!isProd, $.sourcemaps.init()))
@@ -112,7 +117,7 @@ const build = series(
   clean,
   parallel(
     lint,
-    series(parallel(styles, scripts), html),
+    series(parallel(styles, scripts), html, slick),
     images,
     fonts,
     extras
