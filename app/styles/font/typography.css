@@ -53,3 +53,7 @@ body {
 .heading--orange {
   color: theme('colors.orange.dark');
 }
+
+.heading--yellow {
+  color: theme('colors.yellow.brand');
+}

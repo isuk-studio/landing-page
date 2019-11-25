@@ -16,7 +16,7 @@
 }
 
 .button:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.3s linear;
   background-color: theme('colors.orange.dark');
   box-shadow: theme('shadow.default');
 }

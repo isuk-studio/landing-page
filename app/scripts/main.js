@@ -6,6 +6,13 @@ $(function () {
     autoplaySpeed: 3000,
     cssEase: 'ease-in',
   });
+
+  $('.learn-more').click(function() {
+    $('html, body').animate({
+      scrollTop: ($('.solution').offset().top)
+    })
+  })
+
   if (window.innerWidth < 1200) {
     $('.commend__list').slick({
       dots: true,
