@@ -55,6 +55,7 @@
   .hero .constraint {
     @apply flex;
     @apply justify-between;
+    @apply items-center;
   }
 
   .hero .introduction {
