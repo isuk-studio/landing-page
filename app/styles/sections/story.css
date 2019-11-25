@@ -1,5 +1,25 @@
 .neurabot-story {
   margin-top: theme('space.4');
+  @apply relative
+}
+
+.neurabot-story::after {
+  @apply absolute;
+  @apply block;
+  content: '';
+  width: 0;
+}
+
+.neurabot-story:hover{
+  color: theme('colors.orange.dark');
+  @apply no-underline;
+}
+
+.neurabot-story:hover::after{
+  transition: width 0.3s ease-in;
+  @apply w-full;
+  border-bottom: 1px solid theme('colors.orange.dark');
+  bottom: -5px;
 }
 
 .slide-preview {

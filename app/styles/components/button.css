@@ -11,14 +11,27 @@
   @apply rounded;
   padding: 0 theme('space.3');
   margin: theme('space.1') 0;
-  background-color: theme('colors.orange.medium');
+  background-color: theme('colors.orange.brand');
   color: theme('colors.white');
+}
+
+.button:hover {
+  transition: all 0.3s ease-in;
+  background-color: theme('colors.orange.dark');
+  box-shadow: theme('shadow.default');
 }
 
 .button--flat {
   @apply font-normal;
   background-color: transparent;
   color: theme('colors.orange.medium');
+}
+
+.button--flat:hover {
+  @apply underline;
+  box-shadow: none;
+  background-color: transparent;
+  color: theme('colors.orange.dark');
 }
 
 .button--neurabot {
