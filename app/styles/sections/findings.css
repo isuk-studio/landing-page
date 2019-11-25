@@ -1,0 +1,62 @@
+.findings {
+  padding-bottom: theme('space.10');
+}
+
+.findings--neurabot {
+  background-color: theme('colors.brand.neurabot');
+  color: theme('colors.white');
+}
+
+.finding {
+  @apply flex;
+  @apply flex-wrap;
+  margin-top: theme('space.6'); 
+  margin-bottom: theme('space.6'); 
+}
+
+.finding__item {
+  @apply relative;
+  padding: theme('space.3') 0;
+  max-width: 100%;
+  border-bottom: 1px dashed theme('colors.gray.light')
+}
+
+.finding__item:last-child {
+  border-width: 0;
+}
+
+.finding__item p {
+  margin: theme('space.2') 0;
+  color: theme('colors.black');
+}
+
+.finding__item .tag {
+  @apply font-bold;
+  margin-top: theme('space.3');
+  color: theme('colors.orange.dark');
+}
+
+.findings--neurabot a,
+.findings--neurabot .tag {
+  color: theme('colors.yellow.brand');
+}
+
+.findings--neurabot p {
+  color: theme('colors.white');
+}
+
+
+@screen lg {
+  .finding__item {
+    @apply w-1/3;
+    @apply flex-no-wrap;
+    box-sizing: border-box;
+    padding: theme('space.3') theme('space.4');
+    border-right: 1px dashed theme('colors.gray.light');
+    border-bottom-width: 0;
+  }
+
+  .finding__item p {
+    min-height: 200px;
+  }
+}

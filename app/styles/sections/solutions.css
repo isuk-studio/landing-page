@@ -41,7 +41,11 @@
   }
 
   .solution > ul {
-    @apply w-1/2;
     @apply mt-0;
+    @apply w-1/2;
+    @apply justify-around;
   }
+  /* .solution > ul > li {
+    margin: 0 theme('space.1');
+  } */
 }

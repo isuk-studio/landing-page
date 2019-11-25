@@ -2,6 +2,8 @@
 @import "./font/metropolis.css";
 @import "./font/typography.css";
 @import "./components/index.css";
+
+/* Section */
 @import "./sections/hero.css";
 @import "./sections/solutions.css";
 @import "./sections/story.css";

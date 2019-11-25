@@ -14,6 +14,10 @@
   margin-top: theme('space.6');
 }
 
+.hero-illustration {
+  @apply hidden;
+}
+
 .clients {
   @apply flex;
   @apply justify-between;
@@ -48,7 +52,16 @@
     background-position: right top;
   }
 
+  .hero .constraint {
+    @apply flex;
+    @apply justify-between;
+  }
+
   .hero .introduction {
     @apply w-1/2;
+  }
+
+  .hero-illustration {
+    @apply block;
   }
 }

@@ -1,0 +1,46 @@
+<svg width="879" height="651" viewBox="0 0 879 651" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="879" height="651">
+<path d="M879 0H0V651H688L879 0Z" fill="url(#paint0_radial)"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M879 98H-118" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M879 190H-118" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M879 283H-118" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M879 467H-118" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M879 650.5H-18.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M879 375H-118" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M879 559H-118" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M879 144H-118" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M879 236.5H-18.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M879 329H-118" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M879 513H-118" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M879 421H-118" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M879 605H-118" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M807 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M669 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M577 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M485 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M393 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M301 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M209 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M117 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M25 0.5V639.5" stroke="#5E7285" stroke-linecap="round"/>
+<path d="M761 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M715 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M623 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M531 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M439 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M347 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M255 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M163 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+<path d="M71 0.5V639.5" stroke="#5E7285" stroke-linecap="round" stroke-dasharray="2 4"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(245 400.5) rotate(-9.99562) scale(671.188 384.348)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

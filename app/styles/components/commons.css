@@ -17,3 +17,7 @@ section {
 .col {
   margin: 0 theme('space.1');
 }
+
+a {
+  color: theme('colors.orange.medium');
+}

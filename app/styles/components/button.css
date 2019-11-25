@@ -21,6 +21,10 @@
   color: theme('colors.orange.medium');
 }
 
+.button--neurabot {
+  background-color: theme('colors.brand.neurabot');
+}
+
 .button--inline {
   @apply p-0;
   @apply h-auto;

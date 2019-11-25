@@ -49,3 +49,7 @@ body {
   @apply tracking-wide;
   @apply uppercase;
 }
+
+.heading--orange {
+  color: theme('colors.orange.dark');
+}

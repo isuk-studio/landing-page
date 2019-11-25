@@ -11,6 +11,10 @@
   flex: 1 0 100%;
 }
 
+.story-timeline .story {
+  margin: theme('space.10') 0;
+}
+
 @screen md {
   .slide-preview li {
     margin-top: 29.5px;
@@ -21,6 +25,14 @@
   .story {
     @apply flex;
     @apply justify-between;
+  }
+
+  .story--reverse {
+    @apply flex-row-reverse;
+  }
+
+  .story-brief {
+    @apply w-1/3;
   }
 
   .slide-preview {

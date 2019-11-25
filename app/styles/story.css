@@ -1,0 +1,12 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "./font/metropolis.css";
+@import "./font/typography.css";
+@import "./components/index.css";
+
+/* Section */
+@import "./sections/hero.css";
+@import "./sections/solutions.css";
+@import "./sections/story.css";
+@import "./sections/findings.css";
+@import "./sections/cta.css";
+@import "./sections/footer.css";

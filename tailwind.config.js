@@ -16,6 +16,9 @@ module.exports = {
       },
       yellow: {
         brand: '#FFCC00'
+      },
+      brand: {
+        neurabot: '#224DE5'
       }
     },
     shadow: {
