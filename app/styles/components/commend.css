@@ -52,6 +52,7 @@
   @apply flex;
   @apply flex-row-reverse;
   @apply justify-between;
+  @apply items-center;
 }
 
 @screen md {
