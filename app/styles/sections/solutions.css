@@ -1,6 +1,7 @@
 .solution ul {
   @apply reset-list;
   margin-top: theme('space.6');
+  margin-bottom: theme('space.6');
 }
 
 .solution ul li{
